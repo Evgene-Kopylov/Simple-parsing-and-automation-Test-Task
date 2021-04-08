@@ -1,7 +1,7 @@
 from selenium import webdriver
 import os
 import django
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'RBA_test_task.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Django_Selenium.settings')
 django.setup()
 
 import time
